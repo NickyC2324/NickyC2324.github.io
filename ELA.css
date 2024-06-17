@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.p1img {
+    background-color: gray;
+    text-align: center;
+}
+
+.p1 {
+    text-align: center;
+    width: 30%; height: 350px;
+    background-color: gray
+}
+
+.p2 {
+    background-color: skyblue;
+    width: 30%; height: 350px;
+    text-align: center;
+}
+
+.p3 {
+    background-color: antiquewhite;
+    width: 30%; height: 350px;
+    text-align: center;
+}
+.p2img{display: flex;margin-left: 10px;}
